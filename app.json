@@ -6,7 +6,7 @@
     "depo" : " https://github.com/phaticusthiccy/WhatsAsenaDuplicated " ,
     "web sitesi" :    " https://t.me/phaticusthiccy " ,
     "success_url" : " https://t.me/AsenaSupport " ,
-    "yığın" : " konteyner " ,
+    "yığın" : " kapsayıcı " ,
     "env" : {
         "ASENA_OTURUM" : {
             "description" : " Qr.Js ile oluşturduğunuz özel oturum kodu. Asena Oturumunuzu buraya yazın. " ,
