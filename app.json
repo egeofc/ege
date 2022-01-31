@@ -1,0 +1,169 @@
+{
+    "name" : " WhatsAsenaDuplicated " ,
+    "description" : " WhatsAsena projesi - Whatsapp'ı kullanmayı kolay ve eğlenceli hale getiriyor. Dünyanın WhatsApp için yapılmış ilk UserBot'u. " ,
+    "logo" : " https://i.hizliresim.com/6Bbj7i.jpg " ,
+    "anahtar kelimeler" : [ " whatsapp " , " userbot " , " Asena " , " WhatsAsena " , " bot " , " api " , " ai " , " asena " , " ai-bot " , " AsenaDev " , " wabot " , " wabot asena " ," wp botu " ],
+    "depo" : " https://github.com/phaticusthiccy/WhatsAsenaDuplicated " ,
+    "web sitesi" :    " https://t.me/phaticusthiccy " ,
+    "success_url" : " https://t.me/AsenaSupport " ,
+    "yığın" : " konteyner " ,
+    "env" : {
+        "ASENA_OTURUM" : {
+            "description" : " Qr.Js ile oluşturduğunuz özel oturum kodu. Asena Oturumunuzu buraya yazın. " ,
+            "gerekli" : doğru
+        },
+        "SUDO" : {
+            "description" : " Üyelere tüm yetkileri verir. Kullanıcılara tüm yetkileri verir. => 90xxx,0,90xxx,0,90xxx... " ,
+            "gerekli" : yanlış
+        },
+        "DİL" : {
+            "description" : " Bot dili. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portekizce => pt, Rusça = > ru " ,
+            "gerekli" : doğru ,
+            "değer" : " TR "
+        },
+        "PROXY" : {
+            "description" : " Proxy Adresi. Proxy Adresi => http://some-host:1234 " ,
+            "gerekli" : yanlış ,
+            "değer" : " yanlış "
+        },
+        "ANTI_LINK" : {
+            "description" : " Link Engelleme Sistemi. Link Engelleme Sistemi. " ,
+            "gerekli" : doğru ,
+            "değer" : " yanlış "
+        },
+        "AUTO_BIO" : {
+            "description" : " Duruma otomatik tarih ve zaman için gerçek yapın. Biyografide otomatik tarih, saat için true olarak ayarlayın. " ,
+            "gerekli" : doğru ,
+            "değer" : " yanlış "
+        },
+        "İŞLEYİCİLER" : {
+            "description" : " Komutlar için. Komutlar için. " ,
+            "gerekli" : doğru ,
+            "değer" : " ^[.!;] "
+        },
+        "FULL_EVA" : {
+            "description" : " Bir Chatbot'a Çevirin! Hesabınızı chatbot'a çevirin! " ,
+            "gerekli" : doğru ,
+            "değer" : " yanlış "
+        },
+        "NO_LOG" : {
+            "description" : " Hata günlüğü gerçek olması gerekir. Hata günlüğünü görmek istemiyorsanız true olarak ayarlayın. " ,
+            "gerekli" : doğru ,
+            "değer" : " yanlış "
+        },
+        "GÖNDER_OKU" : {
+            "description" : " Görüldü atmak doğru yazın. Görülmek istiyorsanız doğru yazın. " ,
+            "gerekli" : doğru ,
+            "değer" : " doğru "
+        },
+        "HEROKU" : {
+            "description" : " Herokuda yurtsa true yazın. Heroku'da çalışıyorsa true yazın. " ,
+            "gerekli" : doğru ,
+            "değer" : " doğru "
+        },
+        "HEROKU_API_KEY" : {
+            "description" : " Herokuda API Keyiniz. Heroku API Anahtarı. ===> https://t.me/herokuapikeyscraper " ,
+            "gerekli" : doğru
+        },
+        "SESSİZ_MESAJ" : {
+            "description" : " Düzenlenebilir Mute Mesajı. Kişiselleştirilebilir Mute Mesajı! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "BLOK_CHAT" : {
+            "description" : " Botun hangi sohbette çalışmayacağını seçin. Ör: 905xxxx && 905xxxx-1xxx veya 905xxxx,905xxx... " ,
+            "gerekli" : yanlış ,
+            "değer" : " yanlış "
+        },
+        "UNMUTE_MESSAGE" : {
+            "description" : " Düzenlenebilir Sesi Aç Mesajı. Özelleştirilebilir Sesi Aç Mesajı! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "BLOK_MESAJ" : {
+            "description" : " Düzenlenebilir Blok Mesajı. Kişiselleştirilebilir Blok Mesajı! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "BLOCK_MESSAGE" : {
+            "description" : " Düzenlenebilir Engellemeyi Kaldır Mesajı. Kişiselleştirilebilir Engellemeyi Kaldır Mesajı! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "İŞ_TÜRÜ" : {
+            "description" : " WhatsAsena Çalışma Türü. “public” kullanıyorsanız herkes botu kullanabilir. Bunun dışında “private” kullanıyorsanız sadece botunuzu kullanabilirsiniz. " ,
+            "gerekli" : doğru ,
+            "değer" : " özel "
+        },
+        "HEROKU_APP_NAME" : {
+            "description" : " Herokuda uygulama adı. Uygulama Adı ile aynı olmalıdır! Heroku APP Adı. Uygulama adı ile aynı olmalıdır! " ,
+            "gerekli" : doğru
+        },
+        "DEBUG" : {
+            "description" : " Geliştiricilere özeldir. For Developers => all, info, warn, fatal, error, debug, off " ,
+            "gerekli" : doğru ,
+            "değer" : " yanlış "
+        },
+        "REMOVE_BG_API_KEY" : {
+            "description" : " Fotoğrafların arkaplanını ayağa kaldırın. https://remove.bg " ,
+            "değer" : " yanlış " ,
+            "gerekli" : yanlış
+        },
+        "DEEPAI_API_KEY" : {
+            "description" : " DeepAI Komutu İçin API Anahtarı. DeepAI Komutu İçin ===> https://github.com/phaticusthiccy/WhatsAsenaDuplicated/wiki/DeepAI-API-Key " ,
+            "değer" : " yanlış " ,
+            "gerekli" : yanlış
+        },
+        "CANLI_MESAJ" : {
+            "description" : " Özelleştirilebilir Canlı Mesaj! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "BAN_MESSAGE" : {
+            "description" : " Özelleştirilebilir Yasaklama Mesajı! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "EKLE_MESAJ" : {
+            "description" : " Özelleştirilebilir Mesaj Ekleme! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "KICKME_MESSAGE" : {
+            "description" : " Özelleştirilebilir Kickme Mesajı! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "PROMOTE_MESSAGE" : {
+            "description" : " Özelleştirilebilir Tanıtım Mesajı! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "DEMOTE_MESSAGE" : {
+            "description" : " Özelleştirilebilir İndirgeme Mesajı! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "AFK_MESSAGE" : {
+            "description" : " Özelleştirilebilir AFK Mesajı! Geri dönmek için => varsayılanı kullanın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " varsayılan "
+        },
+        "GAN_IMAGE" : {
+            "description" : " Gan Style eklentisi için resim bağlantısı yazın. Gan Style eklentisi için resim linki yazın. " ,
+            "gerekli" : doğru ,
+            "değer" : " https://i.hizliresim.com/loUtAb.jpg "
+        },
+        "NO_ONLINE" : {
+            "description" : " Çevrimiçi olarak görünmek gerçek yazın. Çevrimiçi görünmek istemiyorsanız true yazın. " ,
+            "gerekli" : yanlış ,
+            "değer" : " doğru "
+        }
+    },
+    "eklentiler" : [{
+      "plan" : " heroku-postgresql "
+    }],
+    "yapı paketleri" : [{
+      "url" : " heroku topluluğu/apt "
+      }]
+  }
